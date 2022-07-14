@@ -1,0 +1,187 @@
+body {
+  background-color: dimgray;
+  color: rgb(161, 164, 51);
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+  font-weight: 800;
+
+  /* Same as above */
+
+  font: normal 16px Courier New, Courier, Monospace;
+
+  line-height: 1.6em;
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a:active {
+  color: blue;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.button {
+  background-color: goldenrod;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background: goldenrod;
+  color: crimson;
+}
+
+.clr {
+  clear: both;
+}
+
+.box-1 {
+  background-color: dimgray;
+
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+
+  /* Same as above */
+
+  border: 5px red solid;
+
+  border-width: 100px;
+  border-bottom-width: 50px;
+  border-style: dotted;
+
+  padding: 25px;
+  margin: 20px 0px;
+}
+
+.box-1 h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 8em;
+}
+
+.box-2 {
+  border: 30px dotted blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+.categories {
+  border: 20px gray solid;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  list-style: georgian;
+}
+
+.categories li {
+  padding-bottom: 10px;
+  border-bottom: dotted 1px crimson;
+  list-style-image: url("../images/check.png");
+}
+
+.my-form {
+  padding: 20px;
+  margin: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+  margin: 10 px;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: peru;
+  padding: 15px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 30px;
+  position: relative;
+  background-image: url("../images/bgimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.p-box h1 {
+  position: absolute;
+  left: 250px;
+  top: 10px;
+  color: aquamarine;
+}
+
+.p-box h2 {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  color: aquamarine;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+.my-list li:last-child {
+  background: red;
+}
+.my-list li:nth-child(4) {
+  background: red;
+}
