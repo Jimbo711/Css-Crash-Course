@@ -182,6 +182,15 @@ a:active {
 .my-list li:last-child {
   background: red;
 }
-.my-list li:nth-child(4) {
-  background: red;
+
+.my-list li:nth-child(even) {
+  background: blue;
+}
+
+.my-list li:nth-child(3) {
+  background: white;
+}
+
+.my-list li:nth-child(5) {
+  background: white;
 }
